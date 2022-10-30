@@ -163,7 +163,7 @@
     "id": "flask_healing",
     "type": "COMESTIBLE",
     "name": { "str": "potion of healthiness", "str_pl": "potions of healthiness" },
-    "description": "A classic medicine, from ancient times, come to us with almost no change. Full of herbs, and fit for King and Fool alike, it is said to heal all common illnesses and speed all manner of physical and mental recovery.",
+    "description": "A classical medicine, from ancient times, come to us with almost no change. Full of herbs, and fit for King and Fool alike, it is said to heal all common illnesses and speed all manner of physical and mental recovery.",
     "copy-from": "mana_potion_lesser",
     "calories": 358,
     "use_action": { "type": "cast_spell", "spell_id": "flask_healing", "no_fail": true, "level": 0 },
