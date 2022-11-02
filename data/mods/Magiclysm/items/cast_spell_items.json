@@ -189,17 +189,11 @@
     "use_action": { "type": "cast_spell", "spell_id": "flask_night_vision", "no_fail": true, "level": 0 },
     "price": 40000
   },
-  
-  
-  
-  GOT TO HERE
-  
-  
   {
     "id": "flask_charm",
     "type": "COMESTIBLE",
     "name": { "str": "potion of domination", "str_pl": "potions of domination" },
-    "description": "Rearrange neural activity of the creature to be 100% loyal to a blood owner.  It was banned by the government due the popularity in crime sphere, but some people still know the recipe.",
+    "description": "A creature subject to this spell will temporarily consider you its blood owner. In the past, anyone caught using this would not only be prosecuted for the spell itself, but for any crimes associated with their use of the spell.",
     "copy-from": "mana_potion_lesser",
     "calories": 21,
     "use_action": { "type": "cast_spell", "spell_id": "flask_charm", "no_fail": true, "level": 0 },
@@ -209,7 +203,7 @@
     "id": "flask_sludge_field",
     "type": "COMESTIBLE",
     "name": { "str": "potion of slippery splash", "str_pl": "potions of slippery splash" },
-    "description": "At first it was the small spell, designed to trap and kill small bugs and rodents, but someone found it useful in real fight, and improve it.",
+    "description": "This was originally designed to trap and kill small bugs and rodents, but was greatly improved by an enterprising mage who found it useful in a real fight. Now, this enhanced version is the only one most people know.",
     "copy-from": "mana_potion_lesser",
     "calories": 0,
     "use_action": { "type": "cast_spell", "spell_id": "flask_sludge_field", "no_fail": true, "level": 0 },
@@ -219,7 +213,7 @@
     "id": "flask_speed",
     "type": "COMESTIBLE",
     "name": { "str": "potion of sprint", "str_pl": "potions of sprint" },
-    "description": "They counts as doping in olympic games.  Luckily you are not in stadium.",
+    "description": "In the Olympic Games, this counts as doping.  Luckily, you are not in the stadium.",
     "copy-from": "mana_potion_lesser",
     "calories": 26,
     "use_action": { "type": "cast_spell", "spell_id": "flask_speed", "no_fail": true, "level": 0 },
@@ -229,7 +223,7 @@
     "id": "flask_stamina",
     "type": "COMESTIBLE",
     "name": { "str": "potion of iron lungs", "str_pl": "potions of iron lungs" },
-    "description": "Old recipe, used to increase the user's endurance.  The diluted version was used by a different armies for fast and long forced marches.",
+    "description": "Old recipe, used to increase the user's endurance.  The diluted version was used by various armies for fast and long forced marches.",
     "copy-from": "mana_potion_lesser",
     "calories": 156,
     "use_action": { "type": "cast_spell", "spell_id": "flask_stamina", "no_fail": true, "level": 0 },
@@ -239,7 +233,7 @@
     "id": "flask_rebreather",
     "type": "COMESTIBLE",
     "name": { "str": "potion of water breathing", "str_pl": "potions of water breathing" },
-    "description": "An old marine recipe, that saved a lot of shipwreck victim lives.",
+    "description": "An old marine recipe that saved a lot of shipwreck victims' lives.",
     "copy-from": "mana_potion_lesser",
     "calories": 121,
     "use_action": { "type": "cast_spell", "spell_id": "flask_rebreather", "no_fail": true, "level": 0 },
@@ -249,7 +243,7 @@
     "id": "flask_excitement",
     "type": "COMESTIBLE",
     "name": { "str": "potion of stimulus", "str_pl": "potions of stimulus" },
-    "description": "One of the various potions, designed to make person stronger on battle field.  Increase the user's senses and improve the reaction, increasing his ability to fight in melee.",
+    "description": "One of many battlefield potions,  this heightens the user's senses and improves reaction times. Melee combatants see the greatest benefit."
     "copy-from": "mana_potion_lesser",
     "calories": 89,
     "use_action": { "type": "cast_spell", "spell_id": "flask_excitement", "no_fail": true, "level": 0 },
@@ -259,7 +253,7 @@
     "id": "flask_resistance",
     "type": "COMESTIBLE",
     "name": { "str": "potion of iron skin", "str_pl": "potions of iron skin" },
-    "description": "Harden the user's skin, and allow to take more damage with no harm.  Was popular in ancient armies, but now mostly forgotten.",
+    "description": "Harden the user's skin, reducing harm from physical attacks.  Popular in ancient armies, but mostly forgotten as armor improved.",
     "copy-from": "mana_potion_lesser",
     "calories": 211,
     "use_action": { "type": "cast_spell", "spell_id": "flask_resistance", "no_fail": true, "level": 0 },
@@ -269,7 +263,7 @@
     "id": "flask_illumination",
     "type": "COMESTIBLE",
     "name": { "str": "potion of illumination", "str_pl": "potions of illumination" },
-    "description": "That potion was designed in 19th century, for miners that was awared of explosive gas leaks in the mine.  Not so popular now, due the abundance of electric lighters, but still useful sometimes.",
+    "description": "Designed in the 19th century for miners, this light source was non-explosive in the presence of flammable gases.  Not so popular now, due the abundance of electric lighters, but still useful sometimes.",
     "copy-from": "mana_potion_lesser",
     "calories": 7,
     "use_action": { "type": "cast_spell", "spell_id": "flask_illumination", "no_fail": true, "level": 0 },
@@ -279,7 +273,7 @@
     "id": "flask_mana_regen",
     "type": "COMESTIBLE",
     "name": { "str": "potion of mana regeneration", "str_pl": "potions of mana regeneration" },
-    "description": "Attract the ley-lines to user, increasing the natural mana regeneration.",
+    "description": "Attracts ley-lines to the user, increasing natural mana regeneration.",
     "copy-from": "mana_potion_lesser",
     "calories": 66,
     "use_action": { "type": "cast_spell", "spell_id": "flask_mana_regen", "no_fail": true, "level": 0 },
@@ -289,7 +283,7 @@
     "id": "flask_max_mana",
     "type": "COMESTIBLE",
     "name": { "str": "potion of mana reserves", "str_pl": "potions of mana reserves" },
-    "description": "Splay user's ley-lines, what allow them to use more mana than they usually can.",
+    "description": "Splay user's ley-lines, allowing them to use more mana than usual.",
     "copy-from": "mana_potion_lesser",
     "calories": 76,
     "use_action": { "type": "cast_spell", "spell_id": "flask_max_mana", "no_fail": true, "level": 0 },
@@ -299,7 +293,7 @@
     "id": "flask_regeneration",
     "type": "COMESTIBLE",
     "name": { "str": "potion of regeneration", "str_pl": "potions of regeneration" },
-    "description": "Start a long-term spell sequence, that increase your regeneration abilities.",
+    "description": "Starts a spell sequence that increases your body's regenerative abilities. This spell's sequence lasts much longer than most, but is no more difficult to maintain.",
     "copy-from": "mana_potion_lesser",
     "calories": 344,
     "use_action": { "type": "cast_spell", "spell_id": "flask_regeneration", "no_fail": true, "level": 0 },
@@ -309,12 +303,19 @@
     "id": "flask_mood",
     "type": "COMESTIBLE",
     "name": { "str": "potion of happiness", "str_pl": "potions of happiness" },
-    "description": "More than alcohol drink than potion, this mixture make your brain feel constant happiness, ignoring the whole boredom of reality.  It cause no addiction, but it still banned in some countries, including the USA (except the Texas and New Hampshire, where it's just frowned upon)",
+    "description": "More alcohol drink than potion, this mixture makes your brain feel constant happiness and ignore the boredom of reality.  Despite being non-addictive, it is banned in some countries, including the USA (except Texas and New Hampshire, where it is merely frowned upon).",
     "copy-from": "mana_potion_lesser",
     "calories": 65,
     "use_action": { "type": "cast_spell", "spell_id": "flask_mood", "no_fail": true, "level": 0 },
     "price": 40000
   },
+
+
+
+GOT TO HERE
+
+
+
   {
     "id": "flask_toxin",
     "type": "COMESTIBLE",
