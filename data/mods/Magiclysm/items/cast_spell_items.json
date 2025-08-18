@@ -153,7 +153,7 @@
     "id": "flask_invisibility",
     "type": "COMESTIBLE",
     "name": { "str": "potion of invisibility", "str_pl": "potions of invisibility" },
-    "description": "Invisibility to all eyes that see only mundane light. The user of this potion is visible in what is colloquially called the 'mana spectrum', and may also be smelled and heard, but the expense of detecting this particular 'frequency' makes invisibility universally illegal to various degrees. Methods of invisibility committed to paper are usually accompanied by suggestions on how to avoid olfactory or aural detection.",
+    "description": "Invisibility to all eyes that see only mundane light. The user of this potion is visible in the mana spectrum, and may also be smelled and heard, but the expense of detecting this particular frequency makes invisibility universally illegal to various degrees. Methods of invisibility committed to paper are usually accompanied by suggestions on how to avoid olfactory or aural detection.",
     "copy-from": "mana_potion_lesser",
     "calories": 77,
     "use_action": { "type": "cast_spell", "spell_id": "flask_invisibility", "no_fail": true, "level": 0 },
