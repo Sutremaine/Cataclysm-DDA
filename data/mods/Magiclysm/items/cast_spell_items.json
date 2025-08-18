@@ -163,7 +163,7 @@
     "id": "flask_healing",
     "type": "COMESTIBLE",
     "name": { "str": "potion of healthiness", "str_pl": "potions of healthiness" },
-    "description": "A classical medicine, from ancient times, come to us with almost no change. Full of herbs, and fit for King and Fool alike, it is said to heal all common illnesses and speed all manner of physical and mental recovery.",
+    "description": "A classical medicine, from ancient times, that comes to us with almost no change. Full of herbs, and fit for King and Fool alike, it is said to heal all common maladies and speed all manner of physical and mental recovery.",
     "copy-from": "mana_potion_lesser",
     "calories": 358,
     "use_action": { "type": "cast_spell", "spell_id": "flask_healing", "no_fail": true, "level": 0 },
@@ -173,7 +173,7 @@
     "id": "flask_feather",
     "type": "COMESTIBLE",
     "name": { "str": "potion of lesser gravity control", "str_pl": "potions of lesser gravity control" },
-    "description": "Allows the user to survive a fall from any height.",
+    "description": "Allows the user to survive a fall from any height. Its short duration makes it a very expensive replacement for a climber's usual equipment.",
     "copy-from": "mana_potion_lesser",
     "calories": 57,
     "use_action": { "type": "cast_spell", "spell_id": "flask_feather", "no_fail": true, "level": 0 },
@@ -309,18 +309,11 @@
     "use_action": { "type": "cast_spell", "spell_id": "flask_mood", "no_fail": true, "level": 0 },
     "price": 40000
   },
-
-
-
-GOT TO HERE
-
-
-
   {
     "id": "flask_toxin",
     "type": "COMESTIBLE",
     "name": { "str": "potion of toxin", "str_pl": "potions of toxin" },
-    "description": "Spread a low lethal toxin on your enemies.  Its surprisingly effective, if you have enough time.",
+    "description": "Spread a gently, mildly lethal toxin on your enemies.  It's surprisingly effective, if you can stay alive to watch the buildup.",
     "copy-from": "mana_potion_lesser",
     "calories": 0,
     "use_action": { "type": "cast_spell", "spell_id": "flask_toxin", "no_fail": true, "level": 0 },
@@ -330,7 +323,7 @@ GOT TO HERE
     "id": "flask_venom",
     "type": "COMESTIBLE",
     "name": { "str": "potion of venom", "str_pl": "potions of venom" },
-    "description": "Concentrated potion, teleported right in the enemy body - fast, painful, and guarantee death.",
+    "description": "Concentrated poison, teleported right into the enemy body - fast, painful, and guaranteed death.",
     "copy-from": "mana_potion_lesser",
     "calories": 0,
     "use_action": { "type": "cast_spell", "spell_id": "flask_venom", "no_fail": true, "level": 0 },
